@@ -9,7 +9,7 @@
 <p>
   <h1 align="left">
     <b>
-  VINE AND VERSE <img width="30px" height="30px" src="https://github.com/Legendary-Person/Music-Player/blob/main/readme%20resource/black.svg"/>
+  VINE AND VERSE
     </b>
   </h1>
 </p>
