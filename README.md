@@ -18,7 +18,9 @@
 It's a Music Player created with the JavaScript (For Logic & interactivity and some jQuery too), HTML (For Structure), CSS (For Design and animation), Wamp (For initial LocalHost run), Canva (Embed Live Option). This project exclusively plays songs by NF.
 The goal of this project is to get to know building a Music Player better. The preview for the same is given below.
 
-
+![image1](https://github.com/himeshez/VINE-AND-VERSE/blob/a3b286eec0ed4773db6d9ce3511cc461832c308e/Gallery/main%20menu.png)
+![image2](https://github.com/himeshez/VINE-AND-VERSE/blob/a3b286eec0ed4773db6d9ce3511cc461832c308e/Gallery/menu.png)
+![image3](https://github.com/himeshez/VINE-AND-VERSE/blob/a3b286eec0ed4773db6d9ce3511cc461832c308e/Gallery/Main.png)
 
 ## Music Player Details 
 - The Music Player isn't API based, therefore you will need to either manually add the songs (a folder) in your project directory or use .mp3 links.
