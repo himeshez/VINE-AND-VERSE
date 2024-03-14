@@ -31,6 +31,13 @@ The goal of this project is to get to know building a Music Player better. The p
 - You will need to host your project on a server (when locally stored), like Wamp Server because, for security reasons, your browser wouldn't access your local files.
 - The webpage isn't responsive, meaning that it will not automatically resize itself according to the device you are using, in conclusion, looking at the final product on desktop will be different from looking at in on mobile phone.
 
+## Tech Stack 
+- JavaScript (For Logic & interactivity and some jQuery too)
+- HTML (For Structure)
+- CSS (For Design and animation)
+- Wamp (For initial LocalHost run)
+- Canva (Embed Live Option)
+  
 ## License
 
 Copyright (c) 2024 . The source code is under the MIT license.
