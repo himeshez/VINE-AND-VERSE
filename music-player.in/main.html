@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vine and Verse</title>
+
+    <!--Loads the icons-->
+    <script src="https://kit.fontawesome.com/3cc2adce48.js" crossorigin="anonymous"></script>
+
+    <!-- Load the custom CSS style file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--Using JavaScript to make the volume slider responsive.-->
+    <script>
+		function volDecrease(){
+			const audio = document.getElementById("audio");
+			audio.volume=audio.volume-1;
+        }
+		function volIncrease(){
+			const audio = document.getElementById("audio");
+			audio.volume=audio.volume+1;
+        }
+    </script>
+
+</head>
+<body>
+
+<!--The Canva Welcome Banner Link-->
+<div class="box">
+    <div class ="welcome_banner">
+        <embed class="box"
+               src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF_dcW4Uxk&#x2F;E0sY_rvHm-zvMJ5rBexZgw&#x2F;view?embed"/>
+               
+    </div>
+    </div>
+    
+
+<!--Have used non-conventional techniques, try to avoid doing this in this format.-->
+<div class="box">
+    <div class="welcome_banner" style="position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:-75px;
+    z-index: 1000;
+    width: 334px;
+    height: 1043px;
+    left: 946px;
+    border: none;
+    padding: 0;
+    margin: 0;">
+        <embed class="box" src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF_ed917g4&#x2F;QD7TUs-eA8ROUUPEk5ubAg&#x2F;view?embed"/> 
+       
+    </div>
+</div>
+
+<!--The Entire player component within a container.-->
+<div class="player">
+
+    <!-- Define the section for displaying details -->
+    <div class="details">
+        <div class="now-playing">PLAYING x OF y</div>
+        <div class="track-art"></div>
+        <div class="track-name">Track Name</div>
+        <div class="track-artist">Track Artist</div>
+    </div>
+
+    <!-- Define the section for displaying track buttons -->
+    <div class="buttons">
+        <div class="prev-track" onclick="prevTrack()">
+            <i class="fas fa-backward fa-2x"></i>
+        </div>
+        <div class="playpause-track" onclick="playpauseTrack()" >
+            <i class="fas fa-play-circle fa-pause-circle fa-2x">
+            </i>
+        </div>
+        <div class="next-track" onclick="nextTrack()">
+            <i class="fas fa-forward fa-2x"></i>
+        </div>
+    </div>
+
+    <!--Container for sliders-->
+    <div class="wrapper">
+
+    <!-- Define the section for displaying the seek slider-->
+    <div class="slider_container">
+        <div class="current-time">00:00</div>
+        <label>
+            <input type="range" min="1" max="100"
+                   value="0" class="seek_slider" onchange="seekTo()">
+        </label>
+        <div class="total-duration">00:00</div>
+    </div>
+
+    <!-- Define the section for displaying the volume slider-->
+    <div class="slider_container">
+        <label>
+            <i class="fa fa-volume-down" onclick="volDecrease()">
+                <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+                <i class="fa fa-volume-up" onclick="volIncrease()">
+                </i>
+            </i>
+        </label>
+    </div>
+
+    </div>
+</div>
+
+<!-- Load the main script for the player -->
+<script src="main.js">
+</script>
+
+</body>
+</html>
