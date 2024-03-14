@@ -1,4 +1,3 @@
-# VINE-AND-VERSE
 ----
 <div align="center">
 <img width="1000px" height="395px" src="readme resource/preview.gif"/>
