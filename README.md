@@ -7,7 +7,7 @@
 
 ----
 <p>
-  <h1 align="center">
+  <h1 align="left">
     <b>
   VINE AND VERSE <img width="30px" height="30px" src="https://github.com/Legendary-Person/Music-Player/blob/main/readme%20resource/black.svg"/>
     </b>
@@ -17,6 +17,8 @@
 ----
 It's a Music Player created with the JavaScript (For Logic & interactivity and some jQuery too), HTML (For Structure), CSS (For Design and animation), Wamp (For initial LocalHost run), Canva (Embed Live Option). This project exclusively plays songs by NF.
 The goal of this project is to get to know building a Music Player better. The preview for the same is given below.
+
+## Overview
 
 ![scr1](https://github.com/himeshez/VINE-AND-VERSE/blob/a3b286eec0ed4773db6d9ce3511cc461832c308e/Gallery/main%20menu.png)
 <br>
